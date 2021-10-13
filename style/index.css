@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    background: /*linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),*/ url("/img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    overflow: hidden;
+}
+
+
+.c-t1 {
+    border-radius: 15px;
+    /*background-color: rgba(139, 139, 139, 0.555);*/
+
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.t-t1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Neue Haas Grotesk Text Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #fff;
+}
+
+
+.c {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 600px;
+    height: 380px;
+}
+
+.time{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+
+    font-size: 150px;
+}
+
+.date{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+
+    font-size: 60px;
+}
+
+
+.w-c {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+    width: 135px;
+    height: 50px;
+}
+
+.temp {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
